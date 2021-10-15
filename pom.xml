@@ -57,5 +57,22 @@
                 </plugin>
             </plugins>
         </pluginManagement>
+        <plugins>
+            <plugin>
+                <groupId>info.novatec</groupId>
+                <artifactId>camunda-bpmn-documentation-generator</artifactId>
+                <version>1.0-SNAPSHOT</version>
+                <!-- optionaly -->
+                <executions>
+                    <execution>
+                        <id>generate</id>
+                        <phase>install</phase>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
     </build>
 </project>
