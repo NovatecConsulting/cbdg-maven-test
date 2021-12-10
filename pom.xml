@@ -97,6 +97,9 @@
                 <groupId>info.novatec</groupId>
                 <artifactId>camunda-bpmn-documentation-generator</artifactId>
                 <version>1.0-SNAPSHOT</version>
+                <configuration>
+                    <templateFile>${project.build.directory}/classes/templates/own.ftl</templateFile>
+                </configuration>
                 <!-- optionaly -->
                 <executions>
                     <execution>
