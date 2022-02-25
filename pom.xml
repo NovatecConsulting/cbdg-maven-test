@@ -100,7 +100,7 @@
                 <configuration>
                     <templateFile>${project.build.directory}/classes/templates/own.ftl</templateFile>
                 </configuration>
-                <!-- optionaly -->
+                <!-- optionally -->
                 <executions>
                     <execution>
                         <id>generate</id>
@@ -108,6 +108,10 @@
                         <goals>
                             <goal>generate</goal>
                         </goals>
+                        <configuration>
+                            <bpmnDiagramImageFile>${project.basedir}/src/main/resources/images/flowchart.png</bpmnDiagramImageFile>
+<!--                            <templateFile>${project.basedir}/src/main/resources/templates/basic.ftl</templateFile>-->
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>
