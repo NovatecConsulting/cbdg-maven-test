@@ -3,10 +3,10 @@
  */
 plugins {
     id("com.diffplug.spotless") version "6.12.0"
-    id("org.jetbrains.kotlin.jvm") version "1.8.10"
+    id("org.jetbrains.kotlin.jvm") version "1.9.22"
     id("org.jlleitschuh.gradle.ktlint") version "11.2.0"
-    id("org.jetbrains.dokka") version "1.7.20"
-    id("info.novatec.cbdg") version "2.0-SNAPSHOT"
+    id("org.jetbrains.dokka") version "1.9.10"
+    id("info.novatec.cbdg") version "2.0"
 }
 
 repositories {
@@ -15,7 +15,7 @@ repositories {
 }
 
 group = "info.novatec"
-version = "1.0-SNAPSHOT"
+version = "1.0"
 description = "cbdg-gradle-test"
 java.sourceCompatibility = JavaVersion.VERSION_17
 
