@@ -6,7 +6,7 @@ plugins {
     id("org.jetbrains.kotlin.jvm") version "1.9.22"
     id("org.jlleitschuh.gradle.ktlint") version "11.2.0"
     id("org.jetbrains.dokka") version "1.9.10"
-    id("info.novatec.cbdg") version "2.0"
+    id("info.novatec.cbdg") version "3.0-SNAPSHOT"
 }
 
 repositories {
@@ -15,7 +15,7 @@ repositories {
 }
 
 group = "info.novatec"
-version = "1.0"
+version = "3.0-SNAPSHOT"
 description = "cbdg-gradle-test"
 java.sourceCompatibility = JavaVersion.VERSION_17
 

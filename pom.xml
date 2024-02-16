@@ -6,7 +6,7 @@
 
     <groupId>info.novatec</groupId>
     <artifactId>cbdg-maven-test</artifactId>
-    <version>1.0</version>
+    <version>3.0-SNAPSHOT</version>
 
     <name>cbdg-maven-test</name>
 
@@ -96,7 +96,7 @@
             <plugin>
                 <groupId>info.novatec</groupId>
                 <artifactId>cbdg-maven-plugin</artifactId>
-                <version>1.0</version>
+                <version>3.0-SNAPSHOT</version>
                 <!-- optionaly -->
                 <executions>
                     <execution>
